@@ -5,9 +5,9 @@ metadata:
   namespace: kafka
 spec:
   ports:
-  - port: 9002
+  - port: 2888
     name: peer
-  - port: 9002
+  - port: 3888
     name: leader-election
   clusterIP: None
   selector:
